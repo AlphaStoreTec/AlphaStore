@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+/*GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#linkSair{
+    display: none;
+}
+
+/*PRODUTOS*/
+
+.titulo {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.produtos>div {
+    flex: 1 1 200px;
+    margin: 10px;
+
+
+}
+
+.maisDetalhes {
+    padding: 5px;
+    border-radius: 30px;
+    color: black;
+    background-color: orangered;
+
+}
+
+.valor {
+    color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*SOBRE*/
+
+.sobre {
+    padding: 5% 12% 5%;
+}
+
+.sobre p {
+    padding: 9px;
+    text-align: justify;
+    font-size: 2vh;
+}
+
+.sobre h1,
+h2 {
+    text-align: center;
+    font-family: 'Lato'sans-serif;
+    font-size: 4vh;
+}
+.sobre a{
+    text-decoration: none;
+}
+
+.carUser{
+    max-width: 100% ;
+    border: 2px solid;
+    margin: 10%;
+    padding: 10px  10px;
+    display: flex;
+    justify-content: center;
+}
+
+.carForme h1, a{
+
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.carForme a{
+    justify-content: center;
+    color: rgb(68, 55, 189);
+}
+
+.carForme a:hover{
+    color: rgb(190, 113, 41);
+}
+
+/*FOOTER*/
+
+footer {
+    background: rgb(126, 126, 126);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer p {
+    background: rgb(126, 126, 126);
+}
+
+.desv {
+    background: rgb(126, 126, 126);
+    display: flex;
+    padding: 5px;
+}
